@@ -4,17 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moja pierwsza strona internetowa</title>
+    <meta name="description" content="to jest opis mojej strony">
 </head>
 <body>
-    Helo <b>world</b>.
+    <!-- nagłówki -->
+    <h1>To jest h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <!-- akapity -->
+    <p>Lorem ipsum &nbsp;, &gt; dolor &lt;sit amet consectetur adipisicing elit. 
+        Expedita accusantium soluta reiciendis asperiores facere 
+        ipsam est necessitatibus dolorum. Debitis, inventore? 
+        Alias quas, esse odio ex corporis perspiciatis quia 
+        porro necessitatibus?</p>
+   
+    <p><b>Lorem ipsum</b>, <i>dolor</i> sit amet consectetur adipisicing elit. 
+        Expedita accusantium soluta reiciendis asperiores facere 
+        ipsam est necessitatibus dolorum. <u>Debitis, inventore?</u> 
+        Alias quas, esse odio ex corporis perspiciatis quia 
+        porro necessitatibus?</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Expedita accusantium soluta reiciendis asperiores facere 
+        ipsam est necessitatibus dolorum. 
+        Debitis, inventore? 
+        <br>
+        <strong>Alias quas, esse odio ex corporis perspiciatis quia </strong>
+        porro <em>necessitatibus</em>? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt itaque ut libero, quas dolore nostrum quisquam in atque, vero distinctio at corrupti tenetur amet sequi fugit nam? Blanditiis, architecto quaerat?</p>
+
+<!-- listy -->
+<!-- wypunktowana -->
+<ul>
+    <!-- obejmuję sobą całą listę -->
+    <li>element listy</li>
+    <li>element listy</li>
+    <li>element listy</li>
+    <li>element listy</li>
+    <li>element listy</li>
+</ul>
+
+<!-- lista numerowana -->
+<ol>
+    <li>element listy</li>
+    <li>element listy
+        <!-- podpunkty zawsze w elemencie listy -->
+        <ul>
+            <li>element listy</li>
+            <li>element listy</li>
+            <li>element listy</li>
+            <li>element listy</li>
+            <li>element listy</li>
+        </ul>
+
+    </li>
+    <li>element listy</li>
+    <li>element listy</li>
+    <li>element listy</li>
+</ol>
+
+<!-- tabele -->
+<b>Tabela&nbsp;</b>
+<table border = "1" name ="tabela 5x5">
+    <tr>
+        <td colspan ="3" >01</td>
+        <td>02</td>
+        <td>03</td>
+        <!-- <td>04</td>
+        <td>05</td> -->
+    </tr>
+    <tr>
+        <td>11</td>
+        <td rowspan="4">12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+        <td>34</td>
+        <td>35</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>42</td>
+        <td>43</td>
+        <td>44</td>
+        <td>45</td>
+    </tr>
+</table>
+
+<!-- odnośniki -->
+
+<h2>odnośniki</h2>
+<!-- adres bezwzględny -->
+    <a href="https://google.pl">przejdź do googla</a>
+<!-- adres wzdlędny -->
+    <a href="galeria.html">przejdź do galerii</a>
+<!-- odnośnik do maila -->
+    Napisz do mnie <a href="mailto:zsalach@gmail.com">zsalach@gmail.com</a>
+<!-- odnośniki z jednym dodatkowym atrybutem -->
+    <!-- otwiera googla w nowej karcie 
+    target="blank"
+    -->
+    <a href="https://google.pl" target="blank" >przejdź do googla</a>
+
+
 </body>
 </html>
+
+
+
+
+
 <!-- 
 
 !DOCTYPE - mówi przeglądarce o tym w jakiej wersji htmla jest tworzony kod. obecnie 5 i jest ona rozwijania
 
 Znacznik html na stronie nie robi nic - stosowany w szablonie jako znacznik przechopwujący całość strony internetowej
-
 Każdy znacznik może mieć swoje dodatkowe atrybuty
 
 lang="en" -  mówimy urządzeniu w jakim języku jest strona lub kawałek strony. translatory do czytania tekstu.
@@ -24,13 +143,6 @@ meta - jest pojemnikiem na dodatkow na inne elementy np. kodowanie znaków. waż
     meta viewport - urzdzenia mobilne.
 
 title - tytuł strony 
-
-
-
-
-
-
-
 
  -->
 
