@@ -19,8 +19,10 @@ header{
 }
 
 section{
-    display: flex;
+    display: flex; 
+    /* domyślnie ma ustawione na aligh items */
     height: 500px;
+    min-width: 500px;
     /* flex-direction: column; układa elementy w kolumnie*/
     /* flex-direction: row-reverse; */
 }
@@ -40,6 +42,7 @@ aside{
 article{
     width: 700px;
     background: lightgreen;
+    overflow: hidden;
 }
 
 #right-panel{

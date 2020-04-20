@@ -1,0 +1,77 @@
+/* selektor znacznika */
+/* KAŻDY SELEKTOR MOŻNA ŁĄCZYĆ Z INNYMI */
+
+/* 
+ul #kontakt{
+
+}
+
+*/
+
+
+div{
+    background: lightseagreen;
+}
+
+/* elementy w elementach - każdy li wewnątrz każdego ul */
+
+ul li{
+    margin: 10px;
+}
+px
+/* wspólne formatowania dla section i article */
+
+section, article{
+    padding: 10px;
+}
+
+/* b bezpośrednio w section */
+section > b{
+    color: lime;
+}
+
+/* można również tak */
+
+section {
+    padding: 10px ;
+}
+article{
+    padding: 10px;
+}
+
+/* formatowanie z użyciemD ID */
+
+#nagłówek {
+    font-size: 12px;
+}
+
+/* do jednego klasy możemy dodawać inne elementy */
+.f20{
+font-size: 20px;
+}
+
+.p40{
+    padding: 40px;
+}
+
+/* hover stan odnośnika po najechaniu myszką  */
+/* pseudo klasa podawana jest po dwókropku */
+a:hover{
+  background: lightcoral;  
+}
+
+li:nth-child(2){
+    background: lightsalmon ;
+}
+
+/* pseudo klasa wszystkie parzyste */
+li:nth-child(even){
+background: lightblue;
+}
+
+
+
+
+
+
+

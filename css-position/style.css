@@ -1,0 +1,55 @@
+body{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    /* centruje kontekst */
+}
+
+main{
+    background: lightblue;
+    width: 1000px;
+    height: 800px;
+    position: relative;
+}
+
+main div{
+    width: 150px;
+    height: 150px;
+    /* position: ;  domyślne położenie elementu w przeglądarce*/
+    position: relative;
+}
+
+#a1{
+    background: lightcoral;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#a2{
+    background: lightcyan;
+    /* top: 100px;
+    left: 50px; */
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 10;
+}
+
+#a3{
+    background: lightgray;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    position: fixed;
+}
+
+#a4{
+    background: lightseagreen;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 40;
+    
+}
+

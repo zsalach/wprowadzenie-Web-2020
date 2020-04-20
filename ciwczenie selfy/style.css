@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: lightpink ;
+}
+
+main{
+    width: 1140px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    font-weight: 700;
+    padding: 6px 24px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+#logo{
+    width: 131px;
+}
+
+nav a:hover{
+    background: #646d72;
+}
+
+nav a.active{
+    background: #ffc002;
+    color: #ffffff
+    ;
+}
+
+
+
+
