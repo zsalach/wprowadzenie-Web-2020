@@ -1,0 +1,49 @@
+span{
+    color: rgba(red, green, blue, alpha);
+    /* alpha w rgba - okfreśla przeźroczystość 
+    wartości podaje się od 0-256 alpha 0-1
+    w przeglądarca  */
+}
+/* # oznacza nazwę identyfikatora znacznika */
+#blok-model{
+    width: 200px;
+    height: 200px;
+    color: chocolate;
+    text-align: center;
+    background: #ffaaff;
+    /* paddingi domyslnie są 0 (puste) */
+
+    /* margines wewnętrzny */
+    /* padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+
+/* paddingi dookoła  jak piszemy jedną wartość*/
+    padding: 20px;
+
+/* pierwszy parametr 15 to góra/dół drugi 30 to lewo/prawo */
+    /* padding: 15px 30px; */
+
+/* z każdej strony różny padding to albo po koleji każdy padding góra dół prawo lewo */
+/* a;bo podajemy 4 parametry jak wskazówkai w zegarze góra,prawo, dół, lewo*/
+  /* padding: 20px 30px 40px 50px; */
+
+  /* OBRAMOWANIE */
+  /* najpierw szerkokośc, styl (solid - linia ciągła), kolor */
+    border:  2px solid black;
+    border-bottom: 4px solid green;
+    border-bottom-width: 10;
+/* inne style - dotted, dashed */
+
+    /*MARGINEZ ZEWNĘTRZNY - DOMYŚLNIE JEST ZREOWY - ELEMENT ODPCHA SIĘ O INNYCH ELEMENTÓW */
+    margin: 80px 80px 80px 80px
+
+
+
+
+
+
+
+
+}

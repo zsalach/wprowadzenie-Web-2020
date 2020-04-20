@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    <!-- model blokowy sposoby wyświetlania elementów na stronie -->
+    <!-- model blokowy jest to zasada układania elementów na stronie -->
+   
+   <!-- plik ze stylemi formatowania dla całej witryny -->
+   <link rel="stylesheet" href="box-model.css">
+      
+   
+   <style>
+        p{
+            /* color tekstu */
+            color: lightyellow;
+            font-size: large;
+        }
+        a{
+            font-size: 24px;
+        }
+
+    
+
+    </style>
+</head>
+<body>
+    <div id="blok-model">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, inventore? 
+        Rerum, cumque dignissimos amet eos eligendi incidunt placeat! 
+        Nostrum tempora consequuntur repellat enim nam, corporis praesentium obcaecati. 
+        Temporibus, eveniet unde.
+    </div>
+
+
+    <div style="background: whitesmoke; width: 500px;">
+        Lorem, ipsum dolor sit amet consectetur <br>
+        Lorem <span>ipsum dolor sit amet consectetur</span>, adipisicing elit. Alias earum quae error, 
+        ab cum voluptatem ea, minima recusandae vel deserunt illo deleniti id sit hic 
+        corrupti numquam repudiandae beatae reprehenderit?
+    </div>
+    <div style ="background: rgba(207, 234, 250, 0.37); height: 100px;">
+        Lorem i<span>psum dolor sit amet</span>, consectetur adipisicing elit. Ab, debitis deserunt. 
+        Sunt beatae eligendi mollitia nisi quas eveniet labore quaerat soluta reiciendis, 
+        non, voluptas iste voluptatem ducimus. Esse, quam numquam.
+    </div>
+    <span>
+        Lorem ipsum dolor <span>sit amet consectetu</span>r adipisicing elit. 
+        Ex aliquam perspiciatis, ipsam numquam enim, minus sunt autem officiis corporis non adipisci
+        cumque facilis quos aut quasi, labore asperiores nisi nesciunt.
+    </span>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ad molestias 
+        recusandae perspiciatis modi corporis fugiat earum repellendus voluptate rem dolores
+        aut quae voluptas obcaecati quod dolor, nobis tempore deserunt.
+    </p>
+
+    <a href="https://tvp.info">przejdź do strony tvp.info</a>
+
+
+</body>
+</html>
+
+
+    <!-- div typowy znacznik blokowy podobnyy jest do akapitu -->
+
+<!-- span to znacznik który nic nie robi nic nam nie zepsuje jest to znacnzik inline,tekst biegnie dalej tak jak by znacznika nie było
+    w przeciwieństwie do znaczników blokowych np. do div.
+ctrl + u - wyświetlenie źródła strony w przeglądarce. -->
+<!-- css cascade style shit - sposób na formatowanie wyglądu znaczników -->
+<!-- css można umieścić w trzech miejscach -->
+    <!-- w znaczniku -->
+    <!-- w sekcji head dokumentu 
+            tylko tutaj umieszczamy pełną strukturę styli
+            style w tym miejscu dotyczą wszystkich danych zanczników na stronie -->
+    <!-- trzecie miejsce gdzie możemy umieścić znacznik jest nad sekcją style
+    i jest to zewnętrzny plik -->
+<!-- style domyślnie mają szerokość rodzica danego zancznika jeżeli to div to szerokość body -->
+<!-- każdy element blokowy ma wyskośc w zależnośći od zawartości -->
+<!-- ; i oddzielamy kolejne style dodane do elementu -->
+
+<!-- CZYM BLIŻEJ DANEGO ZNACZNIKA ZNAJDUJE SIĘ FORMATOWANIE TYM JEST ONO WAZNIEJSZE - 
+CO DO ZASADY -->
+<!-- wAŻNIEJSZYM FORMATOWANIEM I WAŻNIEJSZĄ REGUŁĄ BĘDZIE TA, KTÓRA DOKŁADNIEJ OKREŚLI
+DANY ELEMENT -->
+
+
+
+
+
+
+
