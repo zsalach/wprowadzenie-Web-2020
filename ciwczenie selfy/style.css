@@ -1,21 +1,27 @@
 body{
+    /* display flax - dajemy do elementu nadrzędnego. */
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
     color: lightpink ;
+    text-decoration: none;
 }
 
 main{
     width: 1140px;
 }
 
+/* rozmieszczamy elementy w nagłówku elementy menu są rozrzucone.*/
 header{
     display: flex;
     justify-content: space-between;
 }
 
+
+/* font-weight - "grubość czcionki" 700 - czcionka pogrubiona, można użyć bold.*/
 header nav a {
     font-weight: 700;
     padding: 6px 24px;
@@ -23,14 +29,18 @@ header nav a {
     border-radius: 2px;
 }
 
+/* jak nie muszę to nie podaję wysokości */
 #logo{
     width: 131px;
 }
 
+/* FORMATOWANIE ELEMENTÓW MENU PO NAJECHANIU MYSZĄ */
 nav a:hover{
     background: #646d72;
 }
 
+
+/* FORMATOWANIE AKTYWNEGO ELEMENTU MENU */
 nav a.active{
     background: #ffc002;
     color: #ffffff

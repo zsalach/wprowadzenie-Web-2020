@@ -32,14 +32,27 @@ span{
   /* OBRAMOWANIE */
   /* najpierw szerkokośc, styl (solid - linia ciągła), kolor */
     border:  2px solid black;
-    border-bottom: 4px solid green;
-    border-bottom-width: 10;
+    border-bottom: 5px solid yellowgreen;
+    border-bottom-width: 6px;
 /* inne style - dotted, dashed */
 
     /*MARGINEZ ZEWNĘTRZNY - DOMYŚLNIE JEST ZREOWY - ELEMENT ODPCHA SIĘ O INNYCH ELEMENTÓW */
-    margin: 80px 80px 80px 80px
+    margin: 20px 20px 20px 20px
+}
+    
+body {
+        display: block;
+        margin: 8px;
+        color: teal;
+        background: thistle;
+    }
 
-
+    p{
+        color: tomato;
+        background: yellowgreen;
+        border: 20px;
+        border-color: tomato;
+    }
 
 
 

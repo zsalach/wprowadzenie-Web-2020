@@ -1,0 +1,109 @@
+body{
+    background: #aaaaaa;
+}
+/* fajna strona z newsami smashing magazine */
+/*  */
+main{
+    width: 1000px;
+    margin: 0 auto;
+/* aby móc zastosować taki sposób formatowania stron
+ to należy ustawić szerokośc na auto */
+/* margines prawy i lewy na o a pozostałę na auto 
+nie jest to może zbyt fajne ale działa zawartość trzyma się środka */
+
+}
+
+header{
+    height: 150px ;
+    background: lightblue;
+}
+
+
+section{
+    display: flex; 
+    /* domyślnie ma ustawione na aligh items */
+    height: 500px;
+    min-width: 500px;
+    /* flex-direction: column; układa elementy w kolumnie*/
+    /* flex-direction: row-reverse; */
+}
+
+
+nav{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+nav a{
+    margin: 0 5px;
+}
+
+
+
+aside{
+     width: 150px;
+     background: lightcoral;
+}
+
+article{
+    width: 700px;
+    background: rgb(35, 248, 35);
+    overflow: hidden;
+}
+
+#right-panel{
+    width: 150px;
+    background: lightsteelblue;
+}
+
+footer{
+    height: 150px;
+    background: lightyellow;
+}
+/* 
+@media(max-width: 1920px){
+    main{
+        width:100%;
+        padding: 50px;
+    }
+    #right-panel{
+        display: none;
+    }
+} */
+
+
+/* tablety i stare monitory */
+@media (max-width: 1024px){
+    main{
+        width:100%;
+        padding: 50px;
+    }
+    #right-panel{
+        display: none;
+    }
+}
+
+
+/* telefony w poziomie */
+@media (max-width: 768px){
+    main{
+        width:100%;
+        padding: 50px;
+    }
+    #right-panel{
+        display: none;
+    }
+}
+
+
+/* telefony w pionie */
+@media (max-width: 500px){
+    main{
+        width:100%;
+        padding: 50px;
+    }
+    #right-panel{
+        display: none;
+    }
+}

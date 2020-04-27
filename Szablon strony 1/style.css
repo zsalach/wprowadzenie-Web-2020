@@ -1,0 +1,57 @@
+body{
+    background: #aa08;
+}
+
+main{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+header{
+    height: 150px;
+    background: lightblue;
+}
+
+aside{
+    width: 150px;
+    background: lightcoral;
+}
+
+article{
+    width: 700px;
+    background: lightcyan;
+    /* overflow: auto; */
+    min-height: auto;
+}
+#rightPanel{
+    width: 150px;
+    background: lightpink;
+   
+}
+
+footer{
+    height: 150px;
+    background: lightsteelblue;
+    
+}
+
+section{
+    background: magenta;
+    display: flex;
+    align-items: stretch;
+   
+    
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+nav a{
+    margin: 0px 5px;
+}
+ 
